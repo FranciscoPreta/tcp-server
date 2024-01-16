@@ -1,8 +1,12 @@
-# TCP Server with Netcat (Java)
+# TCP Server with Netcat 
 
 ## Overview
 
 This simple Java program demonstrates a basic TCP server that accepts connections on port 12345 and communicates with clients using the Netcat (`nc`) tool. The server reads messages from clients, prints them to the console, and sends the same message back to the client unless the message is "quit," which terminates the connection.
+
+### CodeForAll Bootcamp Exercise
+
+This project was developed as one of the exercises during the CodeforAll Bootcamp. It serves as an introductory example of building a basic TCP server in Java and interacting with it using Netcat.
 
 ## Usage
 
